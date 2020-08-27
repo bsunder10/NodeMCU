@@ -12,11 +12,11 @@ DHT dht(DHTPIN,DHTTYPE);
 
 float hum,temp,a,b;
 
-#define USERNAME "bsunder"
+#define USERNAME "***********"
 #define DEVICE_ID "ESP8266"
-#define DEVICE_CREDENTIAL "IMbT2voyBx4!"
-#define WLAN_SSID "Niltech"
-#define WLAN_pass "Niltech@12345"
+#define DEVICE_CREDENTIAL "*******!"
+#define WLAN_SSID "*********"
+#define WLAN_pass "*****"
 
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
